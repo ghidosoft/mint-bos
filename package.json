@@ -5,9 +5,7 @@
     "author": "JCThePants",
     "license": "MIT",
     "main": "index.js",
-    "dependencies": {
-        "@mintpond/mint-precon": "^1.0.0"
-    },
+    "dependencies": {},
     "devDependencies": {
         "mocha": "^5.2.0"
     },
