@@ -26,7 +26,6 @@ describe('BosSerializer', () => {
         const serializedBuf = bosSerializer.serialize(largeObj);
         const deserialized = bosDeserializer.deserialize(serializedBuf);
 
-        delete deserialized._bufferTimeMs;
         const json = JSON.stringify(deserialized);
 
         assert.strictEqual(refJson, json);
